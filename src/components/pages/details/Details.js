@@ -6,6 +6,9 @@ import { Link  } from "react-router-dom";
 class Details extends React.Component {
   constructor(props) {
     super(props);
+    this.state= {
+      
+    }
   }
 
   render() {

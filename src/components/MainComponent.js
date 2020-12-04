@@ -56,7 +56,6 @@ class Main extends React.Component {
       
     };
 
-    // onSelectedProduct()
 
     return (
 

@@ -19,8 +19,6 @@ class Home extends React.Component {
     this.state = {
       products: Products,
     };
-
-    //this.selectedProduct = this.selectedProduct.bind(this);
   }
 
 
