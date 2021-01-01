@@ -7,6 +7,9 @@ import Header from "./layouts/header/Header";
 import About from "./pages/about/About";
 import Contact from "./pages/contact/Contact";
 import Products from "../shared/products";
+import Login from './pages/Login/Login';
+
+
 
 class Main extends React.Component {
   constructor(props) {
@@ -67,6 +70,7 @@ class Main extends React.Component {
           <Route path="/details/:id" component={ProductWithId} />
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
+          <Route path="/login" component={Login} />
           <Redirect to="/" />
         </Switch>
         <Footer />
