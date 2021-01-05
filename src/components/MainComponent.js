@@ -8,7 +8,7 @@ import About from "./pages/about/About";
 import Contact from "./pages/contact/Contact";
 import Products from "../shared/products";
 import Login from './pages/Login/Login';
-
+import Signup from "./pages/signup/Signup";
 
 
 class Main extends React.Component {
@@ -71,6 +71,7 @@ class Main extends React.Component {
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
           <Route path="/login" component={Login} />
+          <Route path="/signup" component={Signup} />
           <Redirect to="/" />
         </Switch>
         <Footer />

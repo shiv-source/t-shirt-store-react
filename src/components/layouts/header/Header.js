@@ -50,11 +50,7 @@ class Header extends React.Component {
                     Contact
                   </NavLink>
                 </NavItem>
-                <NavItem>
-                  <NavLink className="nav-link active ml-3" to="/login">
-                    Login
-                  </NavLink>
-                </NavItem>
+                
               </Nav>
               <Nav className="ml-auto">
                 <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
@@ -76,6 +72,20 @@ class Header extends React.Component {
                     >
                       <span className="fa fa-linkedin"></span>
                     </a>
+                  </li>
+                  <li>
+                  <NavItem>
+                  <NavLink className="nav-link active ml-3" to="/login">
+                    Login
+                  </NavLink>
+                </NavItem>
+                  </li>
+                  <li>
+                  <NavItem>
+                  <NavLink className="nav-link active ml-3" to="/signup">
+                    Signup
+                  </NavLink>
+                </NavItem>
                   </li>
                 </ul>
               </Nav>
